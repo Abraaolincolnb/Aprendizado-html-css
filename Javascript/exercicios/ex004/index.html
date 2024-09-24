@@ -8,15 +8,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Ola, mundo!</h1>
-    <h2> Esse e meu primeiro primeiro exercicio aprendendo JavaScript</h2>
-    <p>E finalmente poderei ser um programador realmente!</p>
     <script>
-        //coleta o nome do usuario
-        var nome = prompt("agora assina seu nome aqui!") 
-        //boas vindas
-        alert("Seja bem vindo! " + nome + "!") //concatenação
-        
+        var nome = prompt("qual seu nome?")
+        document.write(`Seu nome tem ${nome.length} letras!`)  
     </script>
 </body>
 </html>
