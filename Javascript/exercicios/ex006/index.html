@@ -9,23 +9,24 @@
 </head>
 <body>
     <h1>Entendendo os eventos dom</h1>
-    <div id="area" onmousedown="click()" onmouseenter="entrar()" onmouseleave="sair()">
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
         Interaja
     </div>
 
     <script>
         
-        var a = window.document.getElementById("area")
-        function click() {
-            
+        var a = window.document.querySelector("div#area")
+        function clicar() {
             a.innerText = "clicou"
+            a.style.background ="red"
         }
         function entrar() {
+        
             a.innerText = "entrou"
         }
         function sair(){
             a.innerText = "saiu"
-
+            a.style.background ="green"
         }
 
 
