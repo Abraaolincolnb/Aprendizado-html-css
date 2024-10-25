@@ -11,13 +11,16 @@
     <h1>Introdução ao Dom</h1>
     <p>Resultado vai aqui</p>
     <p>Aprenderemos o a usar o <strong>DOM</strong> com o JS</p>
-    <div>CLICA EM MIM</div>
+    <div id="msg">CLICA EM MIM</div>
     <script>
         var p1 = document.getElementsByTagName("p")
         [1]
         var Corpo = document.body
         p1.style.color = "blue"
-        
+        var d = document.getElementById("msg")
+        d.style.background = "green";
+        d.innerText = "no aguardo"
+
     </script>
 </body>
 </html>
