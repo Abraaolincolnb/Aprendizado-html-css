@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    background-color: #2E073F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;  
+    color: #EBD3F8;
+}
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;  
+    color: #EBD3F8;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
