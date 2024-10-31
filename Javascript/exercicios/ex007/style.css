@@ -11,8 +11,13 @@ div{
     font-size: 20px;  
     color: #EBD3F8;
     background-color: green;
-    width: 200px;
-    height: 200px;
-    line-height: 200px;
+    width: 585px;
+    height: 100px;
+    line-height: 100px;
     text-align: center;
+    border-radius: 10px;
+}
+input{
+    font-size: 20px;
+    
 }
