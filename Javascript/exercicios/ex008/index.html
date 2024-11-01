@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Condicionais parte 1</title>
+</head>
+<body>
+    <h1>Sistema de multas</h1>
+    <p>O <strong>LIMITE</strong> de velocidade e <strong>80Km/h</strong></p>
+    <p>Velocidade do carro:<input type="number" name="txtvel" id="txtvel"> Km/h</p>
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+    <script>
+        function calcular(){
+            var txtv = document.querySelector("input#txtvel")
+            var res = document.querySelector("div#res")
+            var vel = Number(txtv.value)
+            res.innerHTML = `<p>Sua velocidade atual e de <strong>${vel}Km/h</strong></p>`
+            if(vel > 80){
+                res.innerHTML += `<p>Voce foi <strong>MULTADO</strong> por EXESSO DE VELOCIDADE! 10 pontos na carteira!!!!</p>`
+            }
+            res.innerHTML += `<p>Se beber, <strong>NãO DIRIJA</strong></p>`
+        }
+    </script>
+</body>
+</html>
