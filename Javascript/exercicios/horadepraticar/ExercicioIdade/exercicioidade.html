@@ -9,14 +9,25 @@
 </head>
 <body>
     <header>
-        <h1>Titulo brabo!</h1>
+        <h1>Checagem de idade</h1>
     </header>
     <section>
         <div>
-            Placeholder!!!
+            <p>Ano de nascimento
+             <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <p>
+                <input type="radio" name="radsex" id="mas">
+                <label for="mas"> Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
         </div>
-        <div>
-            Hallo worudo
+        <div id="res">
+            Preencha os dados acima pra liberar o resultado!
         </div>
     </section>
     <footer>
