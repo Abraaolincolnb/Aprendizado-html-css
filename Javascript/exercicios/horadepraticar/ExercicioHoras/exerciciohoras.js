@@ -2,8 +2,7 @@ function carregar() {
 var msg = document.querySelector("div#msg")
 var img = document.querySelector("img#imagem")
 var data = new Date
-//var hora = data.getHours()
-var hora = 16
+var hora = data.getHours()
 var minuto = data.getMinutes()
 msg.innerHTML = `Agora são ${hora}:${minuto} Horas!`
 if (hora >= 6 && hora < 12){
