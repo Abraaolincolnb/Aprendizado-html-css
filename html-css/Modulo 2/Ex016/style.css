@@ -5,7 +5,22 @@
     /*height:100%*/
 }
 body{
-    background-image: linear-gradient(45deg,#FFEC5C,#B4CF66);
+    background-image: linear-gradient(45deg,#699EBF,#064973);
+}
+main{
+    background-color: #EFF2D8;
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 5px, 10px, 15px, black;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    color:#F2AE30;
+    text-align: centerc                ;
+}
+h2{
+    color: #F2AE30;
 }
 p{
     text-align: justify;
