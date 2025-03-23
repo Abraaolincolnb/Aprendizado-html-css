@@ -3,7 +3,8 @@
 body{
     /*background-color: #d9d36c;*/
     height: 718px;
-    background-image: linear-gradient(rgb(91, 214, 245),rgb(9, 9, 90));
+    background-image: linear-gradient(45deg,#699EBF 30%,#064973);
+    background-attachment: fixed;
     font-family: fantasy;
     font-size: 20px;
     letter-spacing: 1px;  
